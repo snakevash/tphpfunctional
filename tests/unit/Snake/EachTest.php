@@ -20,4 +20,6 @@ class EachTest extends \PHPUnit_Framework_TestCase {
     {
         $this->assertTrue(true,'测试一下');
     }
+
+
 } 

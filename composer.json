@@ -1,5 +1,11 @@
 {
     "require": {
         "lstrojny/functional-php": "1.0.0-alpha4"
+    },
+    "autoload": {
+        "psr-0": {
+            "Snake\\": ["tests/unit", "src/Org"]
+        },
+        "files": ["src/Org/Snake/index.php"]
     }
 }

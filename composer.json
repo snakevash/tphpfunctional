@@ -6,6 +6,6 @@
         "psr-0": {
             "Snake\\": ["tests/unit", "src/Org"]
         },
-        "files": ["src/Org/Snake/index.php"]
+        "files": ["src/Org/Snake/index.php", "src/Org/Snake/Core.php"]
     }
 }

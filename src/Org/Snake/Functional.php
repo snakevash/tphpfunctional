@@ -31,11 +31,7 @@ class Functional
      */
     public function map(callable $f)
     {
-        if (!function_exists($f)) {
-            throw new \Exception("not found function", 1);
-        }
-
-        $this->values = array_map($f, $this->values);
+        $this->values = map($this->values, $f);
         return $this;
     }
 }

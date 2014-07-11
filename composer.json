@@ -1,4 +1,15 @@
 {
+    "name": "snakevash/functional",
+    "description": "Functioinal for php",
+    "keywords": ["functional"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "snake",
+            "email": "164011252@qq.com",
+            "homepage": "https://github.com/snakevash/tphpfunctional"
+        }
+    ],
     "require": {
         "lstrojny/functional-php": "1.0.0-alpha4"
     },

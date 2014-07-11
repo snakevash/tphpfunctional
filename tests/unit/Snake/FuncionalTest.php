@@ -34,4 +34,13 @@ class FuncionalTest extends \PHPUnit_Framework_TestCase
         $this->assertTrue(true, "测试");
 
     }
+
+    /**
+     * @test
+     */
+    public function reflectFunction()
+    {
+        $m = new \ReflectionFunction('array_map');
+
+    }
 }

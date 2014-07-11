@@ -41,6 +41,6 @@ class FuncionalTest extends \PHPUnit_Framework_TestCase
     public function reflectFunction()
     {
         $m = new \ReflectionFunction('array_map');
-
+        $this->assertTrue(true, '');
     }
 }
